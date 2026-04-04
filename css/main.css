@@ -1,0 +1,63 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 2%;
+}
+
+h1 {
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/*SECTION WELCOME*/
+.nav {
+    display: flex;
+    justify-content: space-around;
+    gap: 1%;
+    margin: 5%;
+}
+
+.tour {
+    display: flex;
+    justify-content: space-around;
+    margin: 5%;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-around;
+}
+
+/*SECTION ABOUT ME*/
+.who {
+    font-size: 30px;
+    text-align: right;
+    margin-right: 170px;
+}
+
+.containerAM {
+    display: flex;
+    justify-content: space-around;
+    gap: 10%;
+    margin: 5%;
+}
+
+.photo {
+    width: 350px;
+    position: absolute;
+    transform: translateX(-10%);
+    top: 830px;
+}
+.am1{
+    margin-right: 230px;
+}
+
+.containerAM p{
+    font-size: 25px;
+}
+
+/*SECTION VALUES & GOALS*/
+.valuesgoals{
+    margin-top: 15%;
+}
