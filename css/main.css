@@ -5,9 +5,8 @@ body {
 
 h1 {
     font-size: 50px;
-    display: flex;
-    justify-content: center;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
 }
 
 /*SECTION WELCOME*/
@@ -49,39 +48,69 @@ h1 {
     transform: translateX(-10%);
     top: 830px;
 }
-.am1{
+
+.am1 {
     margin-right: 230px;
 }
 
-.containerAM p{
+.containerAM p {
     font-size: 25px;
 }
 
 /*SECTION VALUES & GOALS*/
-.valuesgoals{
+.valuesgoals {
     margin-top: 15%;
     display: flex;
-    padding: 10px;
-    gap: 10px;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
 }
 
-.values{
+.valuephoto{
+    position: absolute;
+    z-index: 1;
+    transform: translateX(-100%);
+}
+
+.valuephoto h1 {
+    text-align: left;
+}
+
+
+.values {
+    width: 50%;
+    height: 80%;
+    position: relative;
+    z-index: 2;
+}
+
+.value {
+    padding: 10px;
+    border-radius: 40px;
+    margin: 10px;
+    background-color: pink;
+}
+
+.value h2 {
+    color: white;
+}
+
+.goals {
+    border-radius: 50px;
+    width: 100%;
     display: flex;
     flex-direction: column;
-    gap: 20px;
-}
-.goals{
-    border: 2px solid red;
-}
-
-.value{
-    border: 1px solid pink;
+    text-align: left;
     padding: 10px;
     background-color: pink;
-    border-radius: 30px;
+    margin: 10px;
 }
-.photoworldcode{
-    width: 350px;
-    position: absolute;
-    transform: translateX(0%);
+
+.goals h1 {
+    font-size: 3.4rem;
+    color: white;
+    text-align: left;
 }
+
+
